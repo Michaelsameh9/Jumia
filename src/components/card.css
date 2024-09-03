@@ -1,0 +1,148 @@
+.card-products {
+    margin: 10px;
+    padding: 1%;
+    width: 197px;
+    border-radius: 5px;
+    transition: all ease-in-out;
+    display: inline-block;
+}
+
+.card-products:hover {
+    box-shadow: 0 0 12px 0 rgba(140, 95, 95, 0.12);
+    transform: scale(1.01);
+}
+
+.img-pro {
+    width: 188PX;
+    height: 190px;
+    position: relative;
+}
+
+.title-header {
+    position: absolute;
+    color: #FFFFFF;
+    background: #FF0004;
+    font-size: 12px;
+    border-radius: 2px;
+    padding: 1px;
+    margin-left: 1%;
+    margin-top: -12%;
+}
+
+.card-products:hover .title-header {
+    margin-left: 16px;
+    margin-top: -92%;
+}
+
+.bagr-icon {
+    position: absolute;
+    background-color: hsla(0, 0%, 100%, .8);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: -35px;
+    margin-left: 10%;
+}
+
+.card-products:hover .bagr-icon {
+    margin-left: 77%;
+}
+
+.card-icon {
+    color: #f68b1e;
+}
+
+.bagr-icon:hover {
+    background-color: #fef3e9;
+}
+
+.card-detalis {
+    overflow: hidden;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    margin: 0;
+    color: black;
+
+}
+
+.price {
+    display: grid;
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+    position: relative;
+}
+
+.descount {
+    color: #f68b1e;
+    background-color: #fef3e9;
+    width: 17%;
+    font-weight: 400;
+    font-size: 12px;
+    position: absolute;
+    margin-left: 41%;
+    margin-top: 13%;
+
+}
+
+del {
+    font-weight: 400;
+    font-size: 13px;
+    display: inline-block;
+    width: 36%;
+    margin-right: 2%;
+    opacity: .7;
+}
+
+.ratings-star {
+    color: #d5ab55;
+    margin-top: 7%;
+}
+
+.icon0 {
+    opacity: .7;
+    float: right;
+    display: block;
+    margin-top: 22%;
+}
+
+.icon00 {
+    display: none;
+}
+
+.icon0:hover {
+    color: #f68b1e;
+}
+
+.Sponsored {
+    font-size: 12px;
+    display: contents;
+}
+
+.add {
+    width: 100%;
+    height: 40px;
+    background-color: #f68b1e;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    visibility: hidden;
+    transition: all ease-in-out;
+}
+
+
+.card-products:hover .add {
+    visibility: visible;
+    transition: all ease-in-out;
+}
+
+.add:hover {
+    background-color: #e07e1b;
+}
+
+.express {
+    width: 85px;
+    height: 10px;
+}

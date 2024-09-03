@@ -1,0 +1,317 @@
+.footer {
+    background-color: #313133;
+    margin-top: 5%;
+}
+
+.footer1 {
+    margin: 0% 12% 2% 12%;
+    padding-top: 1%;
+    color: white;
+
+}
+
+.p-ftr1 {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.p-ftr2 {
+    font-size: 12px;
+}
+
+.icon-ftr1 {
+    position: absolute;
+    color: #a3a3a6;
+    font-size: 1.5rem;
+    margin-top: 35px;
+    margin-left: 14px;
+
+}
+
+
+.link-ftr {
+    text-decoration: none;
+    color: #f9b168;
+    font-size: 12px;
+    display: block;
+}
+
+.link-ftr:hover {
+    text-decoration: underline;
+}
+
+#email {
+    position: absolute;
+    padding-left: 2.5%;
+    height: 48px;
+    border: 2px;
+    width: 17%;
+    border-radius: 5px;
+    display: flex;
+}
+
+#email:hover {
+    border: 2px solid #f9b168;
+}
+
+.btn-male {
+    width: 90px;
+    height: 48px;
+    background-color: #313133;
+    color: white;
+    border: 1px solid white;
+    margin-right: 2%;
+    border-radius: 3px;
+}
+
+.btn-male:hover {
+    color: #f9b168;
+    border: 1px solid #f9b168;
+}
+
+.btn-male:focus {
+    color: #f9b168;
+    border: 1px solid #f9b168;
+}
+
+.btn-female {
+    width: 90px;
+    height: 48px;
+    background-color: #313133;
+    color: white;
+    border: 1px solid white;
+    margin-right: 2%;
+    border-radius: 3px;
+}
+
+.btn-female:hover {
+    color: #f9b168;
+    border: 1px solid #f9b168;
+}
+
+.btn-female:focus {
+    color: #f9b168;
+    border: 1px solid #f9b168;
+}
+
+#check {
+    width: 20px;
+    height: 20px;
+    margin-right: 2%;
+    margin-top: -2%;
+}
+
+.check {
+    margin-top: 3%;
+    font-size: 12px;
+    width: 85%;
+    color: #a3a3a6;
+}
+
+.icon-star {
+    color: #f68b1e;
+    width: 25px;
+    height: 25px;
+    margin-left: 2px;
+}
+
+.icon-ftr2plus {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 5px;
+    position: absolute;
+}
+
+.icon-ftr2 {
+    width: 40px;
+    height: 40px;
+    background-color: #f68b1e;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+}
+
+.p-ftr3 {
+    margin-left: 2%;
+    font-size: 12px;
+    font-weight: 700;
+    width: 70%;
+    display: block;
+}
+
+.spn-ftr1 {
+    font-size: 12px;
+    position: absolute;
+    right: 17%;
+    margin-top: -1%;
+    opacity: .7;
+}
+
+.icon-app {
+    display: inline-block;
+    font-size: 1.5rem;
+    position: absolute;
+}
+
+.span-app {
+    font-size: 8px;
+    position: absolute;
+    margin-left: 25px;
+    opacity: .7;
+}
+
+.app {
+    margin-top: 20px;
+}
+
+.app:hover {
+    color: #f68b1e;
+}
+
+.p-app {
+    font-size: 14px;
+    margin-left: 25px;
+    position: absolute;
+    margin-top: 7px;
+}
+
+.play {
+    margin-left: 50%;
+}
+
+.play:hover {
+    color: #f68b1e;
+}
+
+.footer2 {
+    padding: 0% 12% 0% 12%;
+    padding-top: 1%;
+    color: white;
+    background-color: #535357;
+}
+
+.link-ftr2 {
+    font-size: 12px;
+}
+
+.link-ftr2 li a {
+    text-decoration: none;
+    color: white;
+    line-height: 3vh;
+}
+
+.link-ftr2 li a:hover {
+    text-decoration: underline;
+}
+
+.title-ftr {
+    font-size: 14px;
+    width: 150px;
+
+}
+
+.link-ftr3 {
+    font-size: 22px;
+}
+
+.link-ftr3 li {
+    display: contents;
+
+}
+
+.link-ftr3 li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 11%;
+}
+
+.link-ftr3 li a:hover {
+    color: #f68b1e;
+}
+
+.link-ftr4 li {
+    display: contents;
+}
+
+.link-ftr4 li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 8%;
+}
+
+.link-ftr4 li a:hover {
+    color: #f68b1e;
+}
+
+.link-ftr4 {
+    font-size: 28px;
+    margin-top: 24%;
+}
+
+.link-ftr4 li a.icon-ftr3 {
+    background-color: white;
+    font-size: 12px;
+    color: #535357;
+    border-radius: 2px;
+}
+.link-ftr4 li a.icon-ftr3:hover {
+    background-color: #f68b1e;
+  
+}
+
+.link-ftr5 {
+    font-size: 12px;
+    width: 100px;
+    display: inline-block;
+}
+
+.link-ftr5 li a {
+    text-decoration: none;
+    color: white;
+    line-height: 3vh;
+}
+
+.link-ftr5 li a:hover {
+    text-decoration: underline;
+}
+
+.link-ftr6 {
+    font-size: 12px;
+    width: 100px;
+    display: inline-block;
+    position: relative;
+    top: -20px;
+}
+
+.link-ftr6 li a {
+    text-decoration: none;
+    color: white;
+    line-height: 3vh;
+}
+
+.link-ftr6 li a:hover {
+    text-decoration: underline;
+}
+
+.link-ftr7 {
+    font-size: 12px;
+    width: 113px;
+}
+
+.link-ftr7 li a {
+    text-decoration: none;
+    color: white;
+    line-height: 3vh;
+}
+
+.link-ftr7 li a:hover {
+    text-decoration: underline;
+}
+.logo-ftr{
+    width: 150px;
+    height: 35px;
+    margin-left: -11%;
+}

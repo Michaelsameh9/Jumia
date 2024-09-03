@@ -1,0 +1,77 @@
+.brand-title {
+    font-size: 16px;
+}
+
+.search {
+    width: 88%;
+    height: 29px;
+    border-radius: 30px;
+    position: relative;
+    padding: 0.375rem 2.05rem;
+    margin-left: 4%;
+    padding-right: 7px;
+}
+
+.icon-search2 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: -25px;
+    margin-left: 16px;
+}
+
+.label {
+    margin: 2%;
+    height: 150px;
+    overflow: auto;
+    margin-top: 4%;
+    scrollbar-color: #d4d4d6 transparent;
+    scrollbar-width: thin;
+
+}
+
+.sidebar-label-container {
+    display: flex;
+    margin-left: 11px;
+}
+
+.form-check-input {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+
+}
+
+.form-check-input:checked {
+    background-color: rgb(246, 139, 30);
+    border-color: #f68b1e;
+}
+
+.form-check-input:focus {
+    box-shadow: 2px 1px 13px -1px rgb(246 139 30 / 57%);
+    border-radius: 4px;
+}
+
+.form-check-input:hover {
+    background-color: rgb(246 139 30 / 40%);
+    box-shadow: 2px 1px 13px -1px rgb(246 139 30 / 57%);
+}
+
+.checkmark {
+    align-content: flex-end;
+}
+
+.discount {
+    border-top: 1px solid rgba(187, 187, 187, 0.812);
+    margin-top: 8%;
+    width: 105%;
+    margin-left: -4%;
+    border-bottom: 1px solid rgba(187, 187, 187, 0.812);
+    height: 12vh;
+}
+
+.discount-title {
+    font-size: 16px;
+    margin-top: 5%;
+    margin-left: 5%;
+}

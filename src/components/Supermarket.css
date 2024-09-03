@@ -1,0 +1,123 @@
+.sec-1 {
+    margin-top: 2%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 8px;
+    padding-bottom: 1%;
+}
+
+.p-title2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.card-sec {
+    width: 186px;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+.card-sec:hover {
+    box-shadow: 1px -1px 9px 6px rgba(201, 192, 192, 2.562);
+    transition: all ease-in-out .2s;
+    border-radius: 5px;
+    transform: scale(1.02);
+}
+
+.img-sec {
+    width: 186px;
+    border-radius: 5px;
+    height: 182px;
+}
+
+.supermarket {
+    margin-top: 2%;
+    display: flex;
+}
+
+/* -------------------------- */
+
+.filter-link {
+    background-color: white;
+    margin-top: 4%;
+    border-radius: 5px;
+    padding: 4% 0% 0% 4%;
+    margin-bottom: 0;
+
+}
+
+.title-filter {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.title-link {
+    font-size: 14px;
+    text-decoration: none;
+    color: #313133;
+    font-weight: 500;
+    display: block;
+    height: 2rem;
+    padding: 2% 0% 0% 6%;
+}
+
+.filter-link ul {
+    width: 104%;
+    margin-left: -4%;
+    padding-bottom: 10%;
+    border-bottom: 1px solid rgba(187, 187, 187, 0.812);
+}
+
+.filter-link ul li {
+    width: 105%;
+    margin-left: -1%;
+}
+
+.filter-link ul li:hover {
+    background-color: #f1f1f2;
+
+}
+
+.link4 {
+    font-size: 14px;
+    text-decoration: none;
+    color: #313133;
+    font-weight: 400;
+    display: block;
+    height: 2rem;
+    padding: 2% 0% 0% 10%;
+}
+
+
+
+.title-super {
+    padding: 2% 0% 0% 2%;
+    border-bottom: 1px solid rgba(100, 99, 99, 0.804);
+    display: flex;
+}
+
+.tit-super1 {
+    font-size: 22px;
+    font-weight: 600;
+    position: relative;
+    width: 70%;
+}
+
+.title-super span {
+    font-size: 12px;
+    margin-left: 1%;
+    opacity: .7;
+}
+
+.card-ref {
+    text-decoration: none;
+    color: white;
+}
+
+.sec4 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+

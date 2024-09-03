@@ -1,0 +1,478 @@
+.menu {
+    width: 35px;
+    height: 35px;
+    position: relative;
+}
+
+.icon-menu {
+    width: 25px;
+    height: 25px;
+}
+
+.icon-menu:hover {
+    color: #f68b1e;
+}
+
+
+.toggle-menu {
+    position: absolute;
+    width: 206px;
+    height: 416px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 1px 1px 1px 1px rgb(210, 210, 210);
+    margin-top: 1%;
+    visibility: hidden;
+    padding: 1%;
+
+}
+
+.menu:hover div.toggle-menu {
+    visibility: visible;
+}
+
+.nav-link {
+    font-size: 12px;
+    width: 100%;
+    height: 5vh;
+}
+
+.nav-link:hover {
+    color: #f68b1e;
+}
+
+.toggle-menu2 {
+    position: fixed;
+    width: 728px;
+    height: 416px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 1px 1px 1px 1px rgb(210, 210, 210);
+    margin-top: 1%;
+    left: 391px;
+    top: 115px;
+    padding: 1%;
+    visibility: hidden;
+
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: block;
+    flex-wrap: wrap;
+    width: 200px;
+}
+
+ul li.br-btn {
+    border-bottom: 1px solid rgb(219, 204, 204);
+    padding-bottom: 6px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+ul li a.hyper-link {
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+ul li a.hyper-link:hover {
+    color: #f68b1e;
+}
+
+ul.list-link {
+    padding-top: 2%;
+    height: auto;
+    display: flex;
+}
+
+ul li a.link-toggle {
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    list-style: square;
+    text-decoration: none;
+    opacity: .6;
+    width: 190px;
+    height: 20px;
+}
+
+ul li a.link-toggle:hover {
+    opacity: 1;
+    font-size: 12px;
+}
+
+ul.list-link li {
+    display: contents;
+}
+
+.nav-link:nth-child(1):hover .toggle-menu2 {
+    visibility: visible;
+}
+
+.toggle-menu3 {
+    position: fixed;
+    width: 728px;
+    height: 416px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 1px 1px 1px 1px rgb(210, 210, 210);
+    margin-top: 1%;
+    left: 391px;
+    top: 115px;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    visibility: hidden;
+
+}
+
+.nav-link:nth-child(2):hover .toggle-menu3 {
+    visibility: visible;
+}
+
+.links2 {
+    padding-left: 71%;
+    margin-top: -32%;
+}
+
+.links3 {
+    padding-left: 71%;
+    margin-top: -33%;
+}
+
+.links4 {
+    margin-top: -41%;
+    margin-left: 36%;
+}
+
+.toggle-menu4 {
+    position: fixed;
+    width: 728px;
+    height: 416px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 1px 1px 1px 1px rgb(210, 210, 210);
+    margin-top: 1%;
+    left: 391px;
+    top: 115px;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    visibility: hidden;
+
+}
+
+.nav-link:nth-child(3):hover .toggle-menu4 {
+    visibility: visible;
+}
+
+.links5 {
+    margin-top: -25%;
+}
+
+.links6 {
+    margin-top: -35%;
+}
+
+.toggle-menu5 {
+    position: fixed;
+    width: 728px;
+    height: 416px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 1px 1px 1px 1px rgb(210, 210, 210);
+    margin-top: 1%;
+    left: 391px;
+    top: 115px;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    visibility: hidden;
+
+}
+
+.nav-link:nth-child(4):hover .toggle-menu5 {
+    visibility: visible;
+}
+
+.links7 {
+    margin-top: -42%;
+}
+
+.links8 {
+    margin-right: 36%;
+    margin-top: -38%;
+}
+
+.toggle-menu6 {
+    position: fixed;
+    width: 728px;
+    height: 416px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 1px 1px 1px 1px rgb(210, 210, 210);
+    margin-top: 1%;
+    left: 391px;
+    top: 115px;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    visibility: hidden;
+
+}
+
+.nav-link:nth-child(5):hover .toggle-menu6 {
+    visibility: visible;
+}
+
+.toggle-menu7 {
+    position: fixed;
+    width: 728px;
+    height: 416px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 1px 1px 1px 1px rgb(210, 210, 210);
+    margin-top: 1%;
+    left: 391px;
+    top: 115px;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    visibility: hidden;
+
+}
+
+.nav-link:nth-child(6):hover .toggle-menu7 {
+    visibility: visible;
+}
+
+.links9 {
+    margin-left: 35%;
+    margin-top: -27%;
+}
+
+.links10 {
+    margin-top: -27%;
+}
+
+.toggle-menu8 {
+    position: fixed;
+    width: 728px;
+    height: 416px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 1px 1px 1px 1px rgb(210, 210, 210);
+    margin-top: 1%;
+    left: 391px;
+    top: 115px;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    visibility: hidden;
+
+}
+
+.nav-link:nth-child(7):hover .toggle-menu8 {
+    visibility: visible;
+}
+
+.toggle-menu9 {
+    position: fixed;
+    width: 728px;
+    height: 416px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 1px 1px 1px 1px rgb(210, 210, 210);
+    margin-top: 1%;
+    left: 391px;
+    top: 115px;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    visibility: hidden;
+
+}
+
+.nav-link:nth-child(8):hover .toggle-menu9 {
+    visibility: visible;
+}
+
+.links11 {
+    margin-right: 35%;
+}
+
+.toggle-menu10 {
+    position: fixed;
+    width: 728px;
+    height: 416px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 1px 1px 1px 1px rgb(210, 210, 210);
+    margin-top: 1%;
+    left: 391px;
+    top: 115px;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    visibility: hidden;
+
+}
+
+.nav-link:nth-child(9):hover .toggle-menu10 {
+    visibility: visible;
+}
+
+.links12 {
+    margin-top: -27%;
+}
+
+.links13 {
+    margin-right: 36%;
+    margin-top: -20%;
+}
+
+.toggle-menu11 {
+    position: fixed;
+    width: 728px;
+    height: 416px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 1px 1px 1px 1px rgb(210, 210, 210);
+    margin-top: 1%;
+    left: 391px;
+    top: 115px;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    visibility: hidden;
+
+}
+
+.nav-link:nth-child(10):hover .toggle-menu11 {
+    visibility: visible;
+}
+
+.links14 {
+    margin-top: -32%;
+}
+
+.toggle-menu12 {
+    position: fixed;
+    width: 728px;
+    height: 416px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 1px 1px 1px 1px rgb(210, 210, 210);
+    margin-top: 1%;
+    left: 391px;
+    top: 115px;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    visibility: hidden;
+
+}
+
+.nav-link:nth-child(11):hover .toggle-menu12 {
+    visibility: visible;
+}
+
+.toggle-menu13 {
+    position: fixed;
+    width: 728px;
+    height: 416px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 1px 1px 1px 1px rgb(210, 210, 210);
+    margin-top: 1%;
+    left: 391px;
+    top: 115px;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    visibility: hidden;
+
+}
+
+.nav-link:nth-child(12):hover .toggle-menu13 {
+    visibility: visible;
+}
+
+.links15 {
+    margin-right: 50%;
+    margin-top: -27%;
+}

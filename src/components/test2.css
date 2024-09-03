@@ -1,0 +1,268 @@
+/* src/styles/ProductList.css */
+.product-container {
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 75%;
+    background-color: white;
+}
+
+.producte2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-products {
+    display: inline-block;
+    margin: 10px;
+    padding: 1%;
+    width: 196px;
+    height: 380px;
+    border-radius: 5px;
+    transition: all ease-in-out;
+    position: relative;
+}
+
+.card-products:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+}
+
+.img-product {
+    width: 185PX;
+    height: 190px;
+    position: relative;
+    margin-left: -2%;
+}
+
+.title-header {
+    position: absolute;
+    color: #FFFFFF;
+    background: #FF0004;
+    font-size: 12px;
+    border-radius: 2px;
+    padding: 1px;
+    margin-left: 0%;
+    margin-top: -100%;
+    visibility: visible;
+}
+
+.title-header2 {
+    position: absolute;
+    color: #FFFFFF;
+    background: #f68b1e;
+    font-size: 12px;
+    border-radius: 2px;
+    padding: 1px;
+    margin-left: 0%;
+    margin-top: -100%;
+    visibility: visible;
+}
+
+.like-product {
+    position: absolute;
+    background-color: hsla(0, 0%, 100%, .8);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: -35px;
+    margin-left: 80%;
+    cursor: pointer;
+
+}
+
+.like-product:hover {
+    background-color: #fef3e9;
+}
+
+.icon-like {
+    color: #f68b1e;
+}
+
+.card-detalis {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    margin: 0;
+    color: black;
+}
+
+.price {
+    display: grid;
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+    position: relative;
+}
+
+.sales {
+    color: #f68b1e;
+    background-color: #fef3e9;
+    width: 17%;
+    font-weight: 400;
+    font-size: 12px;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 12%;
+
+}
+
+del {
+    font-weight: 400;
+    font-size: 13px;
+    display: inline-block;
+    width: 45%;
+    margin-right: 2%;
+    opacity: .7;
+}
+
+.star2 {
+    margin: 0;
+}
+
+.express {
+    width: 165px;
+    height: 26px;
+    margin-left: -40px;
+}
+
+.express2 {
+    display: none;
+}
+
+.noexpress {
+    display: none;
+}
+
+.Sponsored {
+    position: absolute;
+    bottom: 25px;
+    opacity: .7;
+    font-size: 12px;
+    width: 100%;
+    color: #000;
+    margin-left: 56%;
+
+}
+
+.Sponsored:hover {
+    color: #f68b1e;
+}
+
+.Sponsored1 {
+    display: inline-block;
+    margin-right: 1%;
+}
+
+.noSponsored {
+    display: none;
+}
+
+.btn-add {
+    position: absolute;
+    width: 96%;
+    height: 50px;
+    bottom: 1px;
+    margin-left: 0px;
+
+}
+
+.add {
+    width: 100%;
+    height: 40px;
+    background-color: #f68b1e;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 5%;
+    border-radius: 5px;
+    visibility: hidden;
+    transition: all ease-in-out;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 37%);
+
+}
+
+.add:hover {
+    background-color: #e07e1b;
+}
+
+.card-products:hover .add {
+    visibility: visible;
+    transition: all ease-in-out;
+
+}
+
+.di {
+    display: none;
+}
+
+.cart-controls {
+    margin: 2% 0% 0% -3%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.btn-mins2 {
+    color: white;
+    background-color: #f68b1e;
+    width: 37px;
+    height: 37px;
+    border-radius: 5px;
+    border: none;
+    font-size: 25px;
+    font-weight: normal;
+    margin-left: 40%;
+}
+
+.btn-mins2:hover {
+    background-color: #e07e1b;
+}
+
+
+.btn-mins2:disabled {
+    opacity: .7;
+}
+
+.btn-num2 {
+    margin: 0% 9% 0% 7%
+}
+
+.btn-remove2 {
+    position: absolute;
+    margin-top: 0%;
+    color: #e07e1b;
+    background-color: white;
+    border: none;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    width: 75px;
+    height: 40px;
+    justify-content: center;
+    padding-top: 11px;
+    border-radius: 5px;
+}
+
+.btn-remove2:hover {
+    background-color: #fcdbb9;
+}
+
+.notification{
+    text-align: center;
+    position: fixed;
+    top: 10%;
+    left: 0%;
+    width: 100%;
+    background-color: #6dbd28;
+    height: 40px;
+    padding-top: 6px;
+    color: white;
+    z-index: 99;
+}
+
+.card-link{
+    text-decoration: none;
+    color: none;
+}
